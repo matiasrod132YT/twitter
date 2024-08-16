@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar-left">
+            <div class="logo">X</div>
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Notifications</a>
+                <a href="#">Messages</a>
+                <!-- Agrega más enlaces según sea necesario -->
+            </nav>
+            <button class="post-btn">Post</button>
+        </aside>
+    
+        <main class="main-content">
+            <div class="tweet-box">
+                <input id="tweetInput" type="text" placeholder="What is happening?!">
+                <button class="post-btn" id="postTweetButton">Twittear</button>
+            </div>
+            <div class="tweets" id="tweetsContainer">
+                <!-- Aquí se mostrarán los tweets -->
+            </div>
+        </main>
+        
+    
+        <aside class="sidebar-right">
+            <div class="trends">
+                <h3>Trends for you</h3>
+                <!-- Agrega las tendencias -->
+            </div>
+            <div class="subscribe-box">
+                <h3>Subscribe to Premium</h3>
+                <!-- Agrega contenido de suscripción -->
+            </div>
+        </aside>
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
